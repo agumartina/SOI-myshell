@@ -88,7 +88,7 @@ $ grep bash /etc/passwd | cut -d “:” -f 1 | sort -r
 - Estilo de código.
 - El código no debe contener errores, ni warnings.
 - El código no debe contener errores de cppcheck.
-- myshell no debe crear procesos zombies.
+- myshell no debe finalizar dejando procesos zombies.
 
 ## Qué se debe Entregar
 - Informe del desarrollo del proyecto.
